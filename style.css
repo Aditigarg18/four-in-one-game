@@ -1,0 +1,33 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: rgb(164, 242, 242);
+    border: 10px solid rgb(14, 84, 249);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* to make cirlce on board */
+.tile {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    border: 5px solid rgb(51, 20, 229);
+}
+
+.red-piece {
+    background-color: rgb(240, 35, 35);
+}
+
+.green-piece {
+    background-color: rgb(22, 244, 33);
+}
